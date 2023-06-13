@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID e050321b-895f-4da0-a134-b85aa55720c5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RequirementsAnalysisPkg</_name>
+			<Annotations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Annotations>
+			<_modifiedTimeWeak type="a">6.13.2023::23:17:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:17:15</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">6.13.2023::23:17:15</weakCGTime>
+			<strongCGTime type="a">6.13.2023::20:50:37</strongCGTime>
+			<_defaultComposite type="s">GUID 9e1d9062-7dd9-4a90-bc4e-20adc78cf179</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4bbcd479-6b44-4d7a-b707-9df138a2d6a8</value>
+				<value>GUID d2739c3b-d19a-4c82-9306-bac9bc55d45e</value>
+				<value>GUID 0f2b0c62-9a63-4adc-8c33-a28419f94e9d</value>
+				<value>GUID 9e1d9062-7dd9-4a90-bc4e-20adc78cf179</value>
+				<value>GUID dab7aebe-5938-4ace-8660-f61c718bc71a</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">TruckRequirementsPkg</fileName>
+			<_id type="a">GUID 4bbcd479-6b44-4d7a-b707-9df138a2d6a8</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">GarbageDisposalPkg</fileName>
+			<_id type="a">GUID d2739c3b-d19a-4c82-9306-bac9bc55d45e</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">BinRequirementsPkg</fileName>
+			<_id type="a">GUID 0f2b0c62-9a63-4adc-8c33-a28419f94e9d</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 9e1d9062-7dd9-4a90-bc4e-20adc78cf179</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ITableInstance type="e">
+			<_id type="a">GUID dab7aebe-5938-4ace-8660-f61c718bc71a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RequirementsTable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+							<_hname type="a">RequirementsTable</_hname>
+							<_hid type="a">GUID ac8ca999-c415-4942-b5eb-99bb8da2415c</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">6.13.2023::23:17:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:17:15</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::Requirements</_hsubsystem>
+					<_hname type="a">ReqTableLayout</_hname>
+					<_hid type="a">GUID 8f1f7467-b093-4abe-9871-3462587c6bc8</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IProject</_hm2Class>
+							<_hname type="a">SGCS</_hname>
+							<_hid type="a">GUID dbd17647-c535-4164-8334-c64eebbfcae9</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
