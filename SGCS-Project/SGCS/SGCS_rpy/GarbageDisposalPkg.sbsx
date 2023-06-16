@@ -12,10 +12,10 @@
 			<_id type="a">GUID d2739c3b-d19a-4c82-9306-bac9bc55d45e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GarbageDisposalPkg</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::12:37:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::12:37:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">6.16.2023::12:37:54</weakCGTime>
+			<weakCGTime type="a">6.16.2023::12:47:33</weakCGTime>
 			<strongCGTime type="a">6.13.2023::20:59:17</strongCGTime>
 			<_defaultComposite type="s">GUID 744535c6-cd76-4b86-acad-f4547e3129de</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -33,10 +33,10 @@
 			<_id type="a">GUID bea9eb6a-947d-47b2-ac07-0e683720adcc</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Time to disposal</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::22:41:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::22:41:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall make sure that any garbage that is put in a comunal collection point is emptied within 72 hours. \par%0D
+\viewkind4\uc1\pard\fs20 The system shall make sure that any garbage that is put in a communal collection point is emptied within 72 hours. \par%0D
 }%0D
 </_body>
 			<reqID type="a">2</reqID>
@@ -404,8 +404,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::12:37:54</_modifiedTime>
-			<_lastModifiedTime type="a">6.16.2023::12:37:54</_lastModifiedTime>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
+			<_lastModifiedTime type="a">6.16.2023::12:47:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

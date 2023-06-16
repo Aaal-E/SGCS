@@ -12,10 +12,10 @@
 			<_id type="a">GUID 0f2b0c62-9a63-4adc-8c33-a28419f94e9d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">BinRequirementsPkg</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::12:41:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::12:41:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:14</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">6.16.2023::12:41:5</weakCGTime>
+			<weakCGTime type="a">6.16.2023::12:47:14</weakCGTime>
 			<strongCGTime type="a">6.13.2023::20:59:39</strongCGTime>
 			<_defaultComposite type="s">GUID 498fc05c-2cfe-4c74-a503-c22fae8df7f0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -47,10 +47,10 @@
 			<_id type="a">GUID e56f5f3e-0035-40c8-ae7e-a030cee7f393</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Bin accessability</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:2:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:2:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:4</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 A comunial bin should be accessible for disposal to all citizens of the city the bin is located in.\par%0D
+\viewkind4\uc1\pard\fs20 A communal bin should be accessible for disposal to all citizens of the city the bin is located in.\par%0D
 }%0D
 </_body>
 			<reqID type="a">10</reqID>
@@ -59,10 +59,10 @@
 			<_id type="a">GUID 1033a777-d931-4043-97eb-e3feebdb2fcd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Bin pickup</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:2:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:2:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:14</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 A comunial bin should be accessible for pickup only to employees of the garbage collection company.\par%0D
+\viewkind4\uc1\pard\fs20 A communal bin should be accessible for pickup only to employees of the garbage collection company.\par%0D
 }%0D
 </_body>
 			<reqID type="a">12</reqID>
@@ -357,8 +357,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::12:41:5</_modifiedTime>
-			<_lastModifiedTime type="a">6.16.2023::12:41:5</_lastModifiedTime>
+			<_modifiedTime type="a">6.16.2023::12:47:14</_modifiedTime>
+			<_lastModifiedTime type="a">6.16.2023::12:47:14</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
