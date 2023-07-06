@@ -12,19 +12,19 @@
 			<_id type="a">GUID d2739c3b-d19a-4c82-9306-bac9bc55d45e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">GarbageDisposalPkg</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:8:3</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">6.13.2023::23:1:51</weakCGTime>
+			<weakCGTime type="a">6.16.2023::12:47:33</weakCGTime>
 			<strongCGTime type="a">6.13.2023::20:59:17</strongCGTime>
 			<_defaultComposite type="s">GUID 744535c6-cd76-4b86-acad-f4547e3129de</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID bea9eb6a-947d-47b2-ac07-0e683720adcc</value>
-				<value>GUID a374e67b-0644-4543-901e-8815a1dc800b</value>
 				<value>GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</value>
 				<value>GUID 6c924f06-09ac-4a2b-b941-eea30566bb9c</value>
+				<value>GUID a374e67b-0644-4543-901e-8815a1dc800b</value>
 				<value>GUID 164650ec-7f8d-45ef-81d7-91cfc1f0cc9b</value>
 				<value>GUID 744535c6-cd76-4b86-acad-f4547e3129de</value>
 			</AggregatesList>
@@ -33,28 +33,90 @@
 			<_id type="a">GUID bea9eb6a-947d-47b2-ac07-0e683720adcc</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Time to disposal</_name>
-			<OwnedDependencies type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</OwnedDependencies>
-			<_modifiedTimeWeak type="a">6.13.2023::22:41:5</_modifiedTimeWeak>
-			<HyperLinks type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</HyperLinks>
-			<_modifiedTime type="a">6.13.2023::22:41:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:47:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall make sure that any garbage that is put in a comunal collection point is emptied within 72 hours. \par%0D
+\viewkind4\uc1\pard\fs20 The system shall make sure that any garbage that is put in a communal collection point is emptied within 72 hours. \par%0D
 }%0D
 </_body>
 			<reqID type="a">2</reqID>
 		</IRequirement>
 		<IRequirement type="e">
+			<_id type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Overflowing</_name>
+			<_modifiedTimeWeak type="a">6.13.2023::23:1:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:1:34</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system shall make sure a bin will not be full (that is at 100%25 capacity) for more than 2 hours.\par%0D
+}%0D
+</_body>
+			<reqID type="a">3</reqID>
+			<AggregatesList type="e">
+				<value>GUID c06e36a0-e634-4f81-b40f-6dd36b564eab</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID c06e36a0-e634-4f81-b40f-6dd36b564eab</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Availability</_name>
+			<_modifiedTimeWeak type="a">6.13.2023::23:1:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:1:34</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID a374e67b-0644-4543-901e-8815a1dc800b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
+			<_id type="a">GUID 6c924f06-09ac-4a2b-b941-eea30566bb9c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Emptying</_name>
+			<_modifiedTimeWeak type="a">6.13.2023::23:1:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:1:51</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The system shall make sure that bins that are filled for 90%25 of their total capicity will be emptied within 8 hours.\par%0D
+}%0D
+</_body>
+			<reqID type="a">4</reqID>
+			<AggregatesList type="e">
+				<value>GUID b7b92ad0-a938-46e0-9faf-11863c7a94ee</value>
+			</AggregatesList>
+		</IRequirement>
+		<IDependency type="e">
+			<_id type="a">GUID b7b92ad0-a938-46e0-9faf-11863c7a94ee</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">Overflowing</_name>
+			<_modifiedTimeWeak type="a">6.13.2023::23:1:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.13.2023::23:1:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IRequirement</_hm2Class>
+					<_hid type="a">GUID 6c924f06-09ac-4a2b-b941-eea30566bb9c</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IRequirement type="e">
 			<_id type="a">GUID a374e67b-0644-4543-901e-8815a1dc800b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Availability</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">6.16.2023::12:37:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.16.2023::12:37:54</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The system shall make sure that the bin allows for disposal of garbage for at least 95%25 of the time. That is, the bin cannot be full for more than 5%25 of the time.\par%0D
@@ -146,76 +208,6 @@
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IRequirement</_hm2Class>
 					<_hid type="a">GUID a374e67b-0644-4543-901e-8815a1dc800b</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IRequirement type="e">
-			<_id type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Overflowing</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:34</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall make sure a bin will not be full (that is at 100%25 capacity) for more than 2 hours.\par%0D
-}%0D
-</_body>
-			<reqID type="a">3</reqID>
-			<AggregatesList type="e">
-				<value>GUID c06e36a0-e634-4f81-b40f-6dd36b564eab</value>
-			</AggregatesList>
-		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID c06e36a0-e634-4f81-b40f-6dd36b564eab</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">Availability</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:34</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID a374e67b-0644-4543-901e-8815a1dc800b</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
-		<IRequirement type="e">
-			<_id type="a">GUID 6c924f06-09ac-4a2b-b941-eea30566bb9c</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Emptying</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:51</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The system shall make sure that bins that are filled for 90%25 of their total capicity will be emptied within 8 hours.\par%0D
-}%0D
-</_body>
-			<reqID type="a">4</reqID>
-			<AggregatesList type="e">
-				<value>GUID b7b92ad0-a938-46e0-9faf-11863c7a94ee</value>
-			</AggregatesList>
-		</IRequirement>
-		<IDependency type="e">
-			<_id type="a">GUID b7b92ad0-a938-46e0-9faf-11863c7a94ee</_id>
-			<_myState type="a">2048</_myState>
-			<_name type="a">Overflowing</_name>
-			<_modifiedTimeWeak type="a">6.13.2023::23:1:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:51</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 85ab0367-71fb-45f5-8882-e08f3836cb7b</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IRequirement</_hm2Class>
-					<_hid type="a">GUID 6c924f06-09ac-4a2b-b941-eea30566bb9c</_hid>
 				</INObjectHandle>
 			</_dependent>
 		</IDependency>
@@ -412,8 +404,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.13.2023::23:1:53</_modifiedTime>
-			<_lastModifiedTime type="a">6.13.2023::23:1:53</_lastModifiedTime>
+			<_modifiedTime type="a">6.16.2023::12:47:33</_modifiedTime>
+			<_lastModifiedTime type="a">6.16.2023::12:47:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1026,7 +1018,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
