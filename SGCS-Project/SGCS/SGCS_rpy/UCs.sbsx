@@ -12,10 +12,10 @@
 			<_id type="a">GUID b3017c37-a2e9-4193-86a9-ad4888d2b0b1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UCs</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::12:34:27</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::12:34:27</_modifiedTime>
 			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">6.16.2023::12:34:27</weakCGTime>
+			<weakCGTime type="a">7.7.2023::17:25:14</weakCGTime>
 			<strongCGTime type="a">6.16.2023::11:18:34</strongCGTime>
 			<_defaultComposite type="s">GUID 2ad7323b-54e4-49cf-af4e-cc4418a13e1e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -2702,22 +2702,26 @@
 			<_id type="a">GUID 12fbce7b-2982-4d3c-ae7b-c79ab4fe577a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Citizen_check_fill_level</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:58:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">6.16.2023::12:34:57</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">The citizen checks the fill level of nearby bins%0D
 %0D
 if a bin is full, the current schedule is penalized</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.16.2023::12:34:57</_modifiedTime>
+			<_modifiedTime type="a">7.7.2023::17:13:43</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">6.16.2023::12:34:57</weakCGTime>
+			<weakCGTime type="a">7.7.2023::17:15:23</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
+			<Diagrams type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Diagrams>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -2728,6 +2732,8 @@ if a bin is full, the current schedule is penalized</_text>
 				<value>GUID 2eae8ecb-b7f5-4c4b-a5a0-7fa9cbdf8764</value>
 				<value>GUID 6ccaed4f-125a-49c3-99a8-a24e8b8a780b</value>
 				<value>GUID 1f497610-6fae-41a8-b6c3-b709d1759ac3</value>
+				<value>GUID 7c43b267-0ee8-4cdf-8c8d-891c83bce533</value>
+				<value>GUID ab297183-a62c-49a8-8bdc-4541ff0fe940</value>
 				<value>GUID e1b3420f-6e6a-4025-ae27-bb6e156508ac</value>
 			</AggregatesList>
 		</IUseCase>
@@ -2748,7 +2754,7 @@ if a bin is full, the current schedule is penalized</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.16.2023::12:34:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:15:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::12:34:57</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
@@ -2770,7 +2776,7 @@ if a bin is full, the current schedule is penalized</_text>
 			<_id type="a">GUID e3b2487e-370f-4603-89e3-64d4da3b0b25</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Check_fill_level</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:56:28</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:15:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::11:56:28</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
@@ -2796,7 +2802,7 @@ if a bin is full, the current schedule is penalized</_text>
 			<_id type="a">GUID 2eae8ecb-b7f5-4c4b-a5a0-7fa9cbdf8764</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Determine_location</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:56:34</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:15:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::11:56:34</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
@@ -2822,7 +2828,7 @@ if a bin is full, the current schedule is penalized</_text>
 			<_id type="a">GUID 6ccaed4f-125a-49c3-99a8-a24e8b8a780b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Display_nearby_bins</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:56:44</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:15:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::11:56:44</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -2846,7 +2852,7 @@ if a bin is full, the current schedule is penalized</_text>
 			<_id type="a">GUID 1f497610-6fae-41a8-b6c3-b709d1759ac3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Penalize_schedule</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:58:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.7.2023::17:15:23</_modifiedTimeWeak>
 			<_modifiedTime type="a">6.16.2023::11:58:19</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
@@ -2866,6 +2872,58 @@ if a bin is full, the current schedule is penalized</_text>
 			<_concurrency type="a">Sequential</_concurrency>
 			<_protection type="a">iPublic</_protection>
 		</ITriggered>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 7c43b267-0ee8-4cdf-8c8d-891c83bce533</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Show_emptying_schedule</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:13:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:13:43</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID ab297183-a62c-49a8-8bdc-4541ff0fe940</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Show_nearby_empty_bins</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:13:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:13:43</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID e1b3420f-6e6a-4025-ae27-bb6e156508ac</_id>
 			<_myState type="a">10240</_myState>
@@ -2897,9 +2955,9 @@ if a bin is full, the current schedule is penalized</_text>
 				<_text type="a">The citizen finds a nearby bin to deposit their garbage into</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.16.2023::11:58:7</_modifiedTime>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">6.16.2023::11:58:7</weakCGTime>
+			<weakCGTime type="a">7.7.2023::17:25:14</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2916,6 +2974,8 @@ if a bin is full, the current schedule is penalized</_text>
 				<value>GUID 9f5fc814-c34e-4b28-8885-f5e89da5e1c5</value>
 				<value>GUID 3af03f7e-2402-41f8-909a-7075f71d809f</value>
 				<value>GUID 9b9f8f0d-9e79-4a7c-abe1-95421f503c84</value>
+				<value>GUID 69cd68ff-3b24-4bbf-b252-32769bdb2756</value>
+				<value>GUID 9b068d70-9600-42c1-a29f-7c5f71d00a7c</value>
 				<value>GUID d6c33b32-259a-4f81-b66a-1fc4c752c5c2</value>
 			</AggregatesList>
 		</IUseCase>
@@ -3070,6 +3130,58 @@ if a bin is full, the current schedule is penalized</_text>
 			<_concurrency type="a">Sequential</_concurrency>
 			<_protection type="a">iPublic</_protection>
 		</ITriggered>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 69cd68ff-3b24-4bbf-b252-32769bdb2756</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Show_full_error</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 9b068d70-9600-42c1-a29f-7c5f71d00a7c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Penalize_schedule</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID d6c33b32-259a-4f81-b66a-1fc4c752c5c2</_id>
 			<_myState type="a">10240</_myState>
@@ -3775,9 +3887,9 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 			<_id type="a">GUID 6d4da334-3bbc-4a0b-adf9-0a4a074bb5f5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Citizen</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:32:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::11:32:46</_modifiedTime>
-			<weakCGTime type="a">6.16.2023::11:32:46</weakCGTime>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
+			<weakCGTime type="a">7.7.2023::17:25:14</weakCGTime>
 			<strongCGTime type="a">6.16.2023::11:20:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3785,10 +3897,64 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID eed9e370-93c6-420d-be17-38d51aaae17e</value>
+				<value>GUID 578e1078-c008-4b72-8f86-411ead6c5ba7</value>
 				<value>GUID 004ee883-09db-446a-a9cd-db5dfbc305a7</value>
 				<value>GUID a836598a-078e-4e02-af1c-4e855003fd68</value>
 			</AggregatesList>
 		</IActor>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID eed9e370-93c6-420d-be17-38d51aaae17e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Walk_to_bin</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 578e1078-c008-4b72-8f86-411ead6c5ba7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Pick_bin</_name>
+			<_modifiedTimeWeak type="a">7.7.2023::17:25:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.7.2023::17:25:14</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 004ee883-09db-446a-a9cd-db5dfbc305a7</_id>
 			<_myState type="a">10240</_myState>
