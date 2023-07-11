@@ -12,10 +12,10 @@
 			<_id type="a">GUID d18be4f7-ebac-40a1-9b64-97bdbaa2986b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">BDD</_name>
-			<_modifiedTimeWeak type="a">7.11.2023::15:1:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.11.2023::15:1:47</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.11.2023::21:36:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.11.2023::21:36:29</_modifiedTime>
 			<_lastID type="a">57</_lastID>
-			<weakCGTime type="a">7.11.2023::15:1:47</weakCGTime>
+			<weakCGTime type="a">7.11.2023::21:36:29</weakCGTime>
 			<strongCGTime type="a">7.11.2023::14:22:55</strongCGTime>
 			<_defaultComposite type="s">GUID 0cedb092-980d-4e0a-8655-7435e0c33258</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -270,6 +270,56 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,108,73</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -321,8 +371,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.11.2023::15:5:4</_modifiedTime>
-			<_lastModifiedTime type="a">7.11.2023::15:5:4</_lastModifiedTime>
+			<_modifiedTime type="a">7.11.2023::21:36:31</_modifiedTime>
+			<_lastModifiedTime type="a">7.11.2023::21:36:31</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -506,7 +556,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">8.13889 0 0 8.5303 20 20 </m_transform>
+			<m_transform type="a">7.43056 0 0 8.5303 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -533,6 +583,34 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Block</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Font.FontColor</_Name>
+													<_Value type="a">0,0,0</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Underline</_Name>
+													<_Value type="a">0</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
@@ -4236,6 +4314,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsMain_Server</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4252,6 +4331,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsSGCS</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4414,6 +4494,7 @@
 			<m_bShowQualifier2 type="a">1</m_bShowQualifier2>
 			<m_sourceRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsTruck</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -4430,6 +4511,7 @@
 			</m_sourceRole>
 			<m_targetRole type="p">
 				<CGIText type="e">
+					<m_str type="a">itsSGCS</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -12355,17 +12437,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.11.2023::14:54:53</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">7.11.2023::21:36:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID e23c7d0c-3062-4a2b-9d59-53ccac32a783</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">7.11.2023::14:54:53</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">7.11.2023::14:54:53</weakCGTime>
+			<_modifiedTime type="a">7.11.2023::21:36:37</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">7.11.2023::21:36:37</weakCGTime>
 			<strongCGTime type="a">7.11.2023::14:20:16</strongCGTime>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Operations>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12401,8 +12487,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.8.2023::11:59:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.8.2023::11:59:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.11.2023::21:27:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.11.2023::21:27:58</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -12443,8 +12529,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">6.8.2023::12:0:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.8.2023::12:0:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.11.2023::21:27:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.11.2023::21:27:55</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -14860,10 +14946,6 @@
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 		</IClass>
 		<IClass type="e">
