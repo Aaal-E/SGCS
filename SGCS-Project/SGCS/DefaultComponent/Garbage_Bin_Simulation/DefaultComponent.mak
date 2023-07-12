@@ -86,9 +86,9 @@ ADDITIONAL_OBJS=
 
 OBJS= \
   Garbage_Bin.obj \
+  Truck.obj \
   Communication_System.obj \
   Dispatch.obj \
-  Truck.obj \
   GPS.obj \
   SGCS.obj \
   Recycling_center.obj \
@@ -201,6 +201,12 @@ Garbage_Bin.obj : Garbage_Bin.cpp Garbage_Bin.h    BDD.h Communication_System.h 
 
 
 
+Truck.obj : Truck.cpp Truck.h    BDD.h Dispatch.h GPS.h SGCS.h 
+	$(CREATE_OBJ_DIR)
+	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Truck.obj" "Truck.cpp" 
+
+
+
 Communication_System.obj : Communication_System.cpp Communication_System.h    BDD.h Dispatch.h Garbage_Bin.h Data_Storage.h Main_Server.h SGCS.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Communication_System.obj" "Communication_System.cpp" 
@@ -210,12 +216,6 @@ Communication_System.obj : Communication_System.cpp Communication_System.h    BD
 Dispatch.obj : Dispatch.cpp Dispatch.h    BDD.h Truck.h Communication_System.h Main_Server.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Dispatch.obj" "Dispatch.cpp" 
-
-
-
-Truck.obj : Truck.cpp Truck.h    BDD.h Dispatch.h GPS.h SGCS.h 
-	$(CREATE_OBJ_DIR)
-	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"Truck.obj" "Truck.cpp" 
 
 
 
@@ -391,9 +391,9 @@ $(TARGET_NAME)$(LIB_EXT) : $(OBJS) $(ADDITIONAL_OBJS) DefaultComponent.mak
 clean:
 	@echo Cleanup
 	if exist Garbage_Bin.obj erase Garbage_Bin.obj
+	if exist Truck.obj erase Truck.obj
 	if exist Communication_System.obj erase Communication_System.obj
 	if exist Dispatch.obj erase Dispatch.obj
-	if exist Truck.obj erase Truck.obj
 	if exist GPS.obj erase GPS.obj
 	if exist SGCS.obj erase SGCS.obj
 	if exist Recycling_center.obj erase Recycling_center.obj

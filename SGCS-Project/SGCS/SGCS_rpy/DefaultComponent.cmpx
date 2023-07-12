@@ -12,13 +12,13 @@
 			<_id type="a">GUID 5ca154bd-fe21-4482-a270-912c2ea3720f</_id>
 			<_myState type="a">139264</_myState>
 			<_name type="a">DefaultComponent</_name>
-			<_modifiedTimeWeak type="a">7.12.2023::22:1:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.12.2023::22:1:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.12.2023::22:31:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::22:31:40</_modifiedTime>
 			<m_buildType type="a">Executable</m_buildType>
 			<m_configActive type="r">
 				<ICodeGenConfigInfoHandle type="e">
 					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
-					<_hid type="a">GUID b98239b9-41ca-4a68-b9ca-cd33670c0695</_hid>
+					<_hid type="a">GUID cb48c091-e36a-4e0d-a0c4-687eff5c2066</_hid>
 				</ICodeGenConfigInfoHandle>
 			</m_configActive>
 			<HandlesInMe type="c">
@@ -132,11 +132,12 @@
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
 			</SelectedVariants>
-			<weakCGTime type="a">7.12.2023::22:1:44</weakCGTime>
+			<weakCGTime type="a">7.12.2023::22:31:40</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<AggregatesList type="e">
 				<value>GUID 33555047-5e1c-4012-af5f-363ac8c31169</value>
 				<value>GUID b98239b9-41ca-4a68-b9ca-cd33670c0695</value>
+				<value>GUID cb48c091-e36a-4e0d-a0c4-687eff5c2066</value>
 			</AggregatesList>
 		</IComponent>
 		<IFolder type="e">
@@ -228,6 +229,166 @@
 			<_id type="a">GUID 319e8a09-35d5-4fc3-bcf5-f9c71475157c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">DefaultConfig</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">5.25.2023::9:25:51</_modifiedTime>
+			<Elements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Elements>
+			<Files type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Files>
+		</IFolder>
+		<ICodeGenConfigInfo type="e">
+			<_id type="a">GUID cb48c091-e36a-4e0d-a0c4-687eff5c2066</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Garbage_Bin_Simulation</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::22:31:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::22:31:40</_modifiedTime>
+			<_scopeType type="a">Derived</_scopeType>
+			<_instrumentation type="a">Animation</_instrumentation>
+			<_timeModel type="a">RealTime</_timeModel>
+			<m_generateActors type="a">1</m_generateActors>
+			<_statechartImplementation type="a">Flat</_statechartImplementation>
+			<_checksList type="a">0 ,</_checksList>
+			<_checksList_Default type="a">1</_checksList_Default>
+			<ScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ScopeElements>
+			<InitialInstances type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\BDD.sbsx</_hfilename>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Garbage_Bin</_hname>
+							<_hid type="a">GUID ffdb7795-1542-497c-ab50-79be5bd02a70</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hfilename type="a">.\BDD.sbsx</_hfilename>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</InitialInstances>
+			<weakCGTime type="a">7.12.2023::22:31:40</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<AnimScopeElements type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</AnimScopeElements>
+			<m_allInAnimScope type="a">1</m_allInAnimScope>
+			<m_generateUsecases type="a">0</m_generateUsecases>
+			<AggregatesList type="e">
+				<value>GUID 0c8d63db-0c4e-459e-bf83-0aace09e0176</value>
+				<value>GUID ebe0ab8b-1c36-4922-95ff-3e669f3408a4</value>
+				<value>GUID f04bb751-6ec3-4d94-99ba-46ad393096d8</value>
+				<value>GUID 6c814973-8d51-4216-940c-75271d2e5c87</value>
+			</AggregatesList>
+		</ICodeGenConfigInfo>
+		<IMHyperLink type="e">
+			<_id type="a">GUID 0c8d63db-0c4e-459e-bf83-0aace09e0176</_id>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::22:1:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Makefile</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">DefaultComponent.mak</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<IMHyperLink type="e">
+			<_id type="a">GUID ebe0ab8b-1c36-4922-95ff-3e669f3408a4</_id>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::22:1:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+				</INObjectHandle>
+			</_dependsOn>
+			<_linkDispName type="a">Edit Main File</_linkDispName>
+			<_linkType type="a">FREE</_linkType>
+			<_linkTarget type="a">MainDefaultComponent</_linkTarget>
+			<isConfigurationFileHyperLink type="a">1</isConfigurationFileHyperLink>
+		</IMHyperLink>
+		<ITag type="e">
+			<_id type="a">GUID f04bb751-6ec3-4d94-99ba-46ad393096d8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SimulateModelFragment</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 886fbffe-94b2-4bf6-9dd4-0ef986eac51f</value>
+				<value>GUID b2d8866f-a1ae-464c-8cf7-171bf6d39166</value>
+				<value>GUID 3e27a5a6-e4b4-4482-86aa-11b835ed345e</value>
+			</AggregatesList>
+		</ITag>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 886fbffe-94b2-4bf6-9dd4-0ef986eac51f</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ICodeGenConfigInfo</_hm2Class>
+					<_hid type="a">GUID b98239b9-41ca-4a68-b9ca-cd33670c0695</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IInstanceValue type="e">
+			<_id type="a">GUID b2d8866f-a1ae-464c-8cf7-171bf6d39166</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStateChart</_hm2Class>
+					<_hfilename type="a">.\BDD.sbsx</_hfilename>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Garbage_Bin</_hclass>
+					<_hname type="a">statechart_7</_hname>
+					<_hid type="a">GUID 9be53f6d-9c3c-4f49-80ca-f1775c0ef6e4</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IInstanceValue type="e">
+			<_id type="a">GUID 3e27a5a6-e4b4-4482-86aa-11b835ed345e</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_value type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStateChart</_hm2Class>
+					<_hfilename type="a">.\BDD.sbsx</_hfilename>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Garbage_Bin</_hclass>
+					<_hname type="a">statechart_7</_hname>
+					<_hid type="a">GUID 9be53f6d-9c3c-4f49-80ca-f1775c0ef6e4</_hid>
+				</IHandle>
+			</_value>
+		</IInstanceValue>
+		<IFolder type="e">
+			<_id type="a">GUID 6c814973-8d51-4216-940c-75271d2e5c87</_id>
+			<_myState type="a">8192</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">Garbage_Bin_Simulation</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">5.25.2023::9:25:51</_modifiedTime>
 			<Elements type="c">

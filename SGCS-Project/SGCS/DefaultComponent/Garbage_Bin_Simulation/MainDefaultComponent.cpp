@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: Garbage_Bin_Simulation
 	Model Element	: Garbage_Bin_Simulation
-//!	Generated Date	: Wed, 12, Jul 2023  
+//!	Generated Date	: Thu, 13, Jul 2023  
 	File Path	: DefaultComponent\Garbage_Bin_Simulation\MainDefaultComponent.cpp
 *********************************************************************/
 
@@ -12,6 +12,8 @@
 #include "MainDefaultComponent.h"
 //## auto_generated
 #include "Garbage_Bin.h"
+//## auto_generated
+#include "Truck.h"
 RhpInteger main( void) {
     RhpInteger status = 0;
     try {
@@ -19,7 +21,10 @@ RhpInteger main( void) {
             {
                 Garbage_Bin p_Garbage_Bin;
                 p_Garbage_Bin.setShouldDelete(false);
+                Truck p_Truck;
+                p_Truck.setShouldDelete(false);
                 (void) p_Garbage_Bin.startBehavior();
+                (void) p_Truck.startBehavior();
                 //#[ configuration DefaultComponent::Garbage_Bin_Simulation 
                 //#]
                 OXF::start();
