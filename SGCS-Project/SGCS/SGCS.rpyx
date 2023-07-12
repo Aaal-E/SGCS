@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">7.11.2023::21:17:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.11.2023::21:26:28</_modifiedTime>
-			<_lastID type="a">7</_lastID>
+			<_modifiedTimeWeak type="a">7.12.2023::22:26:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::22:26:10</_modifiedTime>
+			<_lastID type="a">8</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<value>16777215</value>
@@ -558,8 +558,8 @@
 			</_properties>
 			<_name type="a">Panel_diagram</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.11.2023::21:32:45</_modifiedTime>
-			<_lastModifiedTime type="a">7.11.2023::21:32:45</_lastModifiedTime>
+			<_modifiedTime type="a">7.12.2023::22:28:34</_modifiedTime>
+			<_lastModifiedTime type="a">7.12.2023::22:28:34</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -604,7 +604,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">3</elementList>
+			<elementList type="a">10</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -620,6 +620,13 @@
 				<value>GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</value>
 				<value>GUID 39d0bc70-a1c3-42d8-9fc0-55cf3639d5a1</value>
 				<value>GUID 61cad533-213f-4de8-a04a-f4ef48647f84</value>
+				<value>GUID 867c21ba-8c2f-4491-9601-c4799875aa35</value>
+				<value>GUID d3ebf3d9-0caf-442e-a3e8-e44f7f6642d6</value>
+				<value>GUID 5970d0a2-c9e2-4ba5-9fbc-1d1989ab666e</value>
+				<value>GUID 90c94a2e-d28d-444b-8702-c0d49bc33f79</value>
+				<value>GUID 7fd97995-4d07-4f6c-a8e5-7efd5d607742</value>
+				<value>GUID 616eb9ef-e7e4-4cf5-bf6f-2a0a12bfdee7</value>
+				<value>GUID 27b0a954-4411-4589-9383-9cb1e7890685</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIBox type="e">
@@ -707,12 +714,17 @@
 			<m_type type="a">227</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Garbage_Bin</_hclass>
+					<_hname type="a">Add_garbage()</_hname>
+					<_hid type="a">GUID 400cd062-c68b-473a-a057-602f8bf037ec</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">pushbutton_0</m_str>
+					<m_str type="a">AddGarbage</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -733,13 +745,528 @@
 			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<m_csName type="a">pushbutton_0</m_csName>
+			<m_csModelObjPath type="a">BDD.Garbage_Bin[0].Add_garbage</m_csModelObjPath>
+			<m_csName type="a">AddGarbage</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Garbage_Bin</_hname>
+							<_hid type="a">GUID ffdb7795-1542-497c-ab50-79be5bd02a70</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</m_PartsArray>
 			<m_csButtonCaption type="a">Push</m_csButtonCaption>
 		</CGIMFCCtrl>
+		<CGIActiveX type="e">
+			<_id type="a">GUID 867c21ba-8c2f-4491-9601-c4799875aa35</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">LevelIndicator</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;12632256;CurrentValue;20;DrawTextLabels;-1;EnableThreshold1;-1;EnableThreshold2;-1;Font;Arial;;8,25;0;0;0;0;400;0;FormatString;%25.0f;GradientFactor;0,7;HorizontalLayout;0;LiquidColor;16744576;MaximumValue;100;MinimumValue;0;NumberOfDivisions;5;NumberOfSubdivisions;1;RelativeDepth;0,2;RelativeHeight;0,9;RelativeWidth;0,9;ShadedAreaRelativeSize;0;SquareShape;0;Threshold1Color;0;Threshold1Thickness;1;Threshold1Value;75;Threshold2Color;0;Threshold2Thickness;1;Threshold2Value;35;UseColorGradients;-1;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">223</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Garbage_Bin</_hclass>
+					<_hname type="a">Fill_level</_hname>
+					<_hid type="a">GUID eaff4ab9-d234-4e15-9be9-38e10c6e6cd8</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">GarbageLevel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.00116527 0 0 0.00139443 66 308.553 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Garbage_Bin[0].Fill_level</m_csModelObjPath>
+			<m_csName type="a">GarbageLevel</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Garbage_Bin</_hname>
+							<_hid type="a">GUID ffdb7795-1542-497c-ab50-79be5bd02a70</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIActiveX type="e">
+			<_id type="a">GUID d3ebf3d9-0caf-442e-a3e8-e44f7f6642d6</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">219</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IState</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">ROOT.OutFuelTruck</_hname>
+					<_hid type="a">GUID 05f62d99-092e-45b6-8916-8c719206b500</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">OutOfFuel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000126238 0 0 0.000113298 408 184.126 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Truck[0].statechart_5.OutFuelTruck</m_csModelObjPath>
+			<m_csName type="a">OutOfFuel</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIMFCCtrl type="e">
+			<_id type="a">GUID 5970d0a2-c9e2-4ba5-9fbc-1d1989ab666e</_id>
+			<m_type type="a">227</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">RefuelingTruck()</_hname>
+					<_hid type="a">GUID 0bfc4e47-d37d-4159-b259-040bef088ed6</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">RefuelTruck</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000971062 0 0 0.00043576 360 237.485 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Truck[0].RefuelingTruck</m_csModelObjPath>
+			<m_csName type="a">RefuelTruck</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+			<m_csButtonCaption type="a">Push</m_csButtonCaption>
+		</CGIMFCCtrl>
+		<CGIActiveX type="e">
+			<_id type="a">GUID 90c94a2e-d28d-444b-8702-c0d49bc33f79</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">219</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IState</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Garbage_Bin</_hclass>
+					<_hname type="a">ROOT.Fullbin</_hname>
+					<_hid type="a">GUID 2c2faccb-0ccc-40ed-80e2-c905f28f97e1</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">GarbageFull</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000126238 0 0 0.000113298 227 207.126 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Garbage_Bin[0].statechart_7.Fullbin</m_csModelObjPath>
+			<m_csName type="a">GarbageFull</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Garbage_Bin</_hname>
+							<_hid type="a">GUID ffdb7795-1542-497c-ab50-79be5bd02a70</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIActiveX type="e">
+			<_id type="a">GUID 7fd97995-4d07-4f6c-a8e5-7efd5d607742</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Led</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">219</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IState</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">ROOT.FullTruck</_hname>
+					<_hid type="a">GUID 2d96dee4-4470-4059-86c1-9f69d6bb9b08</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TruckFull</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000126238 0 0 0.000113298 502 177.126 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Truck[0].statechart_5.FullTruck</m_csModelObjPath>
+			<m_csName type="a">TruckFull</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
+		<CGIMFCCtrl type="e">
+			<_id type="a">GUID 616eb9ef-e7e4-4cf5-bf6f-2a0a12bfdee7</_id>
+			<m_type type="a">227</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IReception</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">EmptyTruck()</_hname>
+					<_hid type="a">GUID dabe6616-ac9c-44d8-878e-1f6f84c01dbe</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">EmptyTruck</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.000971062 0 0 0.00043576 476 238.485 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Truck[0].EmptyTruck</m_csModelObjPath>
+			<m_csName type="a">EmptyTruck</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+			<m_csButtonCaption type="a">Push</m_csButtonCaption>
+		</CGIMFCCtrl>
+		<CGIActiveX type="e">
+			<_id type="a">GUID 27b0a954-4411-4589-9383-9cb1e7890685</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">LevelIndicator</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ActiveXProperties@Child.ActiveXControl</_Name>
+													<_Value type="a">BackColor;12632256;CurrentValue;20;DrawTextLabels;-1;EnableThreshold1;-1;EnableThreshold2;-1;Font;Arial;;8,25;0;0;0;0;400;0;FormatString;%25.0f;GradientFactor;0,7;HorizontalLayout;0;LiquidColor;16744576;MaximumValue;100;MinimumValue;0;NumberOfDivisions;5;NumberOfSubdivisions;1;RelativeDepth;0,2;RelativeHeight;0,9;RelativeWidth;0,9;ShadedAreaRelativeSize;0;SquareShape;0;Threshold1Color;0;Threshold1Thickness;1;Threshold1Value;75;Threshold2Color;0;Threshold2Thickness;1;Threshold2Value;35;UseColorGradients;-1;</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">223</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAttribute</_hm2Class>
+					<_hsubsystem type="a">BDD</_hsubsystem>
+					<_hclass type="a">Truck</_hclass>
+					<_hname type="a">Fill_level</_hname>
+					<_hid type="a">GUID b699cbd2-ddc9-4729-b6dc-4631a97ed0c4</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 7b610144-80a5-4a58-b141-986c0ddcfdb5</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Truck_level%0D
+</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_transform type="a">0.00116527 0 0 0.00139443 415 317.553 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_polygon type="a">4 0 -1114  0 113628  102980 113628  102980 -1114  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<m_csModelObjPath type="a">BDD.Truck[0].Fill_level</m_csModelObjPath>
+			<m_csName type="a">Truck_level%0D
+</m_csName>
+			<m_PartsArray type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IClass</_hm2Class>
+							<_hsubsystem type="a">BDD</_hsubsystem>
+							<_hname type="a">Truck</_hname>
+							<_hid type="a">GUID 989ea5e0-9dc5-411c-8638-f4091e38f498</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</m_PartsArray>
+		</CGIActiveX>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

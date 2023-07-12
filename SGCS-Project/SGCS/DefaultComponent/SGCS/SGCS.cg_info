@@ -1,0 +1,391 @@
+I-Logix-RPY-Archive version 8.15.0 * 202002261110
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 120;
+	- value = "DefaultComponent/SGCS/Admin.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Admin.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Analyzer.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Analyzer.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/BDD.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/BDD.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Citizen.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Citizen.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Communication_System.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Communication_System.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Data_Storage.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Data_Storage.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Dispatch.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Dispatch.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Driver.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Driver.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Electricity_provider.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Electricity_provider.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/GPS.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/GPS.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Garbage_Bin.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Garbage_Bin.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Garbage_Disposal_Sites.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Garbage_Disposal_Sites.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Main_Server.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Main_Server.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Recycling_center.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Recycling_center.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/SGCS.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/SGCS.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Temperature_sensor.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Temperature_sensor.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Truck.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Truck.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Truck_refuel_stations.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Truck_refuel_stations.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Citizen_check_fill_level.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Citizen_check_fill_level.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Citizen_deposit_garbage.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Citizen_deposit_garbage.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Collect_garbage.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Collect_garbage.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Plan_route.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_Plan_route.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_System_overview.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UC_System_overview.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UCs_Implementations.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/UCs_Implementations.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Users.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Users.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/Volume_sensor.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Volume_sensor.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Web_Dashboard.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Web_Dashboard.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Weight_sensor.cpp" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/Weight_sensor.h" 7.12.2023::21:25:1
+	"DefaultComponent/SGCS/block_39.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/block_39.h" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/part_0.cpp" 7.12.2023::21:25:2
+	"DefaultComponent/SGCS/part_0.h" 7.12.2023::21:25:2
+	"DefaultComponent\\SGCS\\Admin.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Admin.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Analyzer.cpp" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Analyzer.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\BDD.cpp" 7.12.2023::21:26:2
+	"DefaultComponent\\SGCS\\BDD.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Citizen.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Citizen.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Communication_System.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Communication_System.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Data_Storage.cpp" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Data_Storage.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Dispatch.cpp" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Dispatch.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Driver.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Driver.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\Electricity_provider.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\Electricity_provider.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\GPS.cpp" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\GPS.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Garbage_Bin.cpp" 7.12.2023::21:54:27
+	"DefaultComponent\\SGCS\\Garbage_Bin.h" 7.12.2023::21:54:15
+	"DefaultComponent\\SGCS\\Garbage_Disposal_Sites.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Garbage_Disposal_Sites.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Main_Server.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Main_Server.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Recycling_center.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\Recycling_center.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\SGCS.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\SGCS.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\Temperature_sensor.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Temperature_sensor.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Truck.cpp" 7.12.2023::21:55:4
+	"DefaultComponent\\SGCS\\Truck.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Truck_refuel_stations.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Truck_refuel_stations.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\UC_Citizen_check_fill_level.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UC_Citizen_check_fill_level.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UC_Citizen_deposit_garbage.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UC_Citizen_deposit_garbage.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UC_Collect_garbage.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\UC_Collect_garbage.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\UC_Plan_route.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\UC_Plan_route.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\UC_System_overview.cpp" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UC_System_overview.h" 7.12.2023::21:26:1
+	"DefaultComponent\\SGCS\\UCs_Implementations.cpp" 7.12.2023::21:26:2
+	"DefaultComponent\\SGCS\\UCs_Implementations.h" 7.12.2023::21:26:2
+	"DefaultComponent\\SGCS\\Users.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\Users.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\Volume_sensor.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Volume_sensor.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Web_Dashboard.cpp" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Web_Dashboard.h" 7.12.2023::21:25:58
+	"DefaultComponent\\SGCS\\Weight_sensor.cpp" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\Weight_sensor.h" 7.12.2023::21:25:59
+	"DefaultComponent\\SGCS\\block_39.cpp" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\block_39.h" 7.12.2023::21:26:0
+	"DefaultComponent\\SGCS\\part_0.cpp" 7.12.2023::21:26:2
+	"DefaultComponent\\SGCS\\part_0.h" 7.12.2023::21:26:1
+	
+}
+- m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
+	- size = 4;
+	- value = "GUID 4b2fef3c-7685-4cd0-9c9c-f749988fee26" "GUID dbd17647-c535-4164-8334-c64eebbfcae9"
+	"GUID 5ca154bd-fe21-4482-a270-912c2ea3720f" "GUID dbd17647-c535-4164-8334-c64eebbfcae9"
+	"GUID b3017c37-a2e9-4193-86a9-ad4888d2b0b1" "GUID dbd17647-c535-4164-8334-c64eebbfcae9"
+	"GUID d18be4f7-ebac-40a1-9b64-97bdbaa2986b" "GUID dbd17647-c535-4164-8334-c64eebbfcae9"
+	
+}
+- size = 32;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _class = "TopLevel";
+	- _name = "part_0";
+	- _id = GUID 8e2f0180-0aea-4312-a9c5-34403f262153;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "UC_System_overview";
+	- _id = GUID 001625b8-a13b-4c10-822a-e6420ffeea4d;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Garbage_Bin";
+	- _id = GUID ffdb7795-1542-497c-ab50-79be5bd02a70;
+}
+- genTime = 7.12.2023::21:54:27;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Dispatch";
+	- _id = GUID d7443481-947e-43d5-8683-896420267333;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Volume_sensor";
+	- _id = GUID 24d9ffe8-9deb-4302-bcfa-20a7a0caa24a;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _class = "Garbage_Disposal_Sites";
+	- _name = "Software_Controllers";
+	- _id = GUID 987c10d6-123b-4336-894f-956c3c482c4e;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "UC_Plan_route";
+	- _id = GUID 85504049-0467-4962-818b-7bec0b54bf40;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "block_39";
+	- _id = GUID b45a441d-c917-4b3d-b55e-d70e6ac96631;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "UC_Citizen_deposit_garbage";
+	- _id = GUID dcb8d283-3485-4cd3-853b-9567304f505f;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Web_Dashboard";
+	- _id = GUID 1102a402-e427-4d67-ad50-a1bf50b18f6d;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\SGCS_rpy\\UCs_Implementations.sbsx";
+	- _name = "UCs_Implementations";
+	- _id = GUID 4b2fef3c-7685-4cd0-9c9c-f749988fee26;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Weight_sensor";
+	- _id = GUID 497f2944-d150-4e40-a13d-324b9540866a;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Garbage_Disposal_Sites";
+	- _id = GUID ccae897e-53de-486d-aff2-fae7a9d0e134;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = ".\\..\\..\\SGCS_rpy\\DefaultComponent.cmpx";
+	- _name = "DefaultComponent\\SGCS";
+	- _id = GUID b98239b9-41ca-4a68-b9ca-cd33670c0695;
+}
+- genTime = 7.12.2023::21:55:4;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Temperature_sensor";
+	- _id = GUID 2cf44f5a-db87-40a3-9f15-8775a1bbe855;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Truck";
+	- _id = GUID 989ea5e0-9dc5-411c-8638-f4091e38f498;
+}
+- genTime = 7.12.2023::21:55:4;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Users";
+	- _id = GUID 7e79881f-21d9-41d5-86af-b54dfa955f1a;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Data_Storage";
+	- _id = GUID d4e9455b-3746-42e3-a976-9d7d1b9ff45f;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "GPS";
+	- _id = GUID 909769ed-a7b9-492f-9bdf-9dcb964113d5;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "UC_Citizen_check_fill_level";
+	- _id = GUID 31eee2b5-80fe-41f5-a38b-a89732b9e7ae;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _name = "BDD";
+	- _id = GUID d18be4f7-ebac-40a1-9b64-97bdbaa2986b;
+}
+- genTime = 7.12.2023::21:41:23;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Main_Server";
+	- _id = GUID 3ed26e88-a950-4eb3-a686-db2d1e34dbf3;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "SGCS";
+	- _id = GUID 90cc252d-ef6b-46bb-bc5b-0fd2809ff262;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Truck_refuel_stations";
+	- _id = GUID d62d0f82-84be-4ecf-8ad2-94c6bd4f0f94;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\SGCS_rpy\\UCs.sbsx";
+	- _subsystem = "UCs";
+	- _name = "Admin";
+	- _id = GUID 9e01fe4e-d93a-448d-96f9-16ea31b846c7;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "UC_Collect_garbage";
+	- _id = GUID ea6184e0-2493-4902-9bc5-48b93d1f197f;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\SGCS_rpy\\UCs.sbsx";
+	- _subsystem = "UCs";
+	- _name = "Citizen";
+	- _id = GUID 6d4da334-3bbc-4a0b-adf9-0a4a074bb5f5;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Analyzer";
+	- _id = GUID 2db6ab0a-45c7-4980-81d0-4bc6288a9f67;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Recycling_center";
+	- _id = GUID a0a792ca-e9cd-4727-8638-b44a486ce079;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IActor";
+	- _filename = ".\\..\\..\\SGCS_rpy\\UCs.sbsx";
+	- _subsystem = "UCs";
+	- _name = "Driver";
+	- _id = GUID 5a31a6e1-8ede-4a95-8af6-9bb01f94d06b;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Communication_System";
+	- _id = GUID f862409a-2d37-4a93-a2ba-2bf41e3ece6b;
+}
+- genTime = 7.12.2023::21:26:2;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SGCS_rpy\\BDD.sbsx";
+	- _subsystem = "BDD";
+	- _name = "Electricity_provider";
+	- _id = GUID 7af7d1c4-1b23-4759-8424-3a92efebbe32;
+}
+- genTime = 7.12.2023::21:26:2;
+
