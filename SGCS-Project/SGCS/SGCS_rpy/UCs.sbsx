@@ -12,10 +12,10 @@
 			<_id type="a">GUID b3017c37-a2e9-4193-86a9-ad4888d2b0b1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">UCs</_name>
-			<_modifiedTimeWeak type="a">7.10.2023::15:20:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.10.2023::15:20:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">7.12.2023::12:57:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:1:38</_modifiedTime>
 			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">7.10.2023::15:20:30</weakCGTime>
+			<weakCGTime type="a">7.12.2023::12:57:23</weakCGTime>
 			<strongCGTime type="a">6.16.2023::11:18:34</strongCGTime>
 			<_defaultComposite type="s">GUID 2ad7323b-54e4-49cf-af4e-cc4418a13e1e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -377,6 +377,56 @@
 									</IPropertyMetaclass>
 									
 									<IPropertyMetaclass type="e">
+										<_Name type="a">Port</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,68,73</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
 										<_Name type="a">System_Border</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
@@ -486,8 +536,8 @@
 			</_properties>
 			<_name type="a">UCs</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">7.10.2023::15:20:35</_modifiedTime>
-			<_lastModifiedTime type="a">7.10.2023::15:20:35</_lastModifiedTime>
+			<_modifiedTime type="a">7.12.2023::13:0:38</_modifiedTime>
+			<_lastModifiedTime type="a">7.12.2023::13:0:38</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2373,10 +2423,6 @@ if a bin is full, the current schedule is penalized</_text>
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -2947,10 +2993,14 @@ if a bin is full, the current schedule is penalized</_text>
 If the truck collects significantly more garbage than expected to the point that the route becomes unviable the system is alerted and a new route is generated</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">6.16.2023::12:2:13</_modifiedTime>
-			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">6.16.2023::12:1:27</weakCGTime>
+			<_modifiedTime type="a">7.12.2023::13:4:0</_modifiedTime>
+			<_lastID type="a">15</_lastID>
+			<weakCGTime type="a">7.12.2023::13:0:55</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<Ports type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Ports>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2964,10 +3014,13 @@ If the truck collects significantly more garbage than expected to the point that
 				<value>GUID 1797b369-d948-4cad-9d7a-8b1ed670f6e5</value>
 				<value>GUID e5b31b46-d7a2-40b1-9763-ad8af9055f23</value>
 				<value>GUID 4ae41999-0071-44b9-884f-3d93dca2f506</value>
-				<value>GUID 729e6fcd-3d03-487e-a090-dc959013c799</value>
 				<value>GUID 9c4a71f1-b50e-4def-ba0b-16212d758ce9</value>
 				<value>GUID 7f327184-17c8-4672-bbef-95972189d81f</value>
 				<value>GUID 518afa23-e3ff-4f6e-b9e6-a768587481ce</value>
+				<value>GUID b344e07c-066e-4255-8e85-2dd8e91ace3e</value>
+				<value>GUID 3c796743-efd9-48d9-a2fd-9f1a586b1f6d</value>
+				<value>GUID 7fe029c0-39c2-4dab-ae34-e4d1173d0ac1</value>
+				<value>GUID 5154d3d1-dc8f-4c29-8f04-bae404698704</value>
 				<value>GUID ef14e1e6-ddaa-4f7d-8c5d-19338f2f2118</value>
 				<value>GUID fbbe07b5-0710-435a-b5e2-a127cd5deedb</value>
 				<value>GUID d6797c17-218a-458a-8c29-99ee1fc0a6a0</value>
@@ -3065,30 +3118,6 @@ If the truck collects significantly more garbage than expected to the point that
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 		</IPrimitiveOperation>
-		<ITriggered type="e">
-			<_id type="a">GUID 729e6fcd-3d03-487e-a090-dc959013c799</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Get_route</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::12:0:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::12:0:34</_modifiedTime>
-			<_virtual type="a">0</_virtual>
-			<Args type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Args>
-			<_returnType type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">void</_hname>
-					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
-				</IHandle>
-			</_returnType>
-			<_abstract type="a">0</_abstract>
-			<_final type="a">0</_final>
-			<_concurrency type="a">Sequential</_concurrency>
-			<_protection type="a">iPublic</_protection>
-		</ITriggered>
 		<IPrimitiveOperation type="e">
 			<_id type="a">GUID 9c4a71f1-b50e-4def-ba0b-16212d758ce9</_id>
 			<_myState type="a">8192</_myState>
@@ -3167,6 +3196,104 @@ If the truck collects significantly more garbage than expected to the point that
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID b344e07c-066e-4255-8e85-2dd8e91ace3e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Enter_truck</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::12:57:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::12:57:47</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 3c796743-efd9-48d9-a2fd-9f1a586b1f6d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Refuel_truck</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::12:58:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::12:58:3</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 7fe029c0-39c2-4dab-ae34-e4d1173d0ac1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Request_route</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::13:0:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:0:55</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IReception type="e">
+			<_id type="a">GUID 5154d3d1-dc8f-4c29-8f04-bae404698704</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\UCs_Implementations.sbsx</_hfilename>
+					<_hsubsystem type="a">UCs_Implementations</_hsubsystem>
+					<_hname type="a">Receive_route()</_hname>
+					<_hid type="a">GUID 90e47b56-8abf-42c4-bca3-fa8a0227e025</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID ef14e1e6-ddaa-4f7d-8c5d-19338f2f2118</_id>
 			<_myState type="a">10240</_myState>
@@ -3258,18 +3385,14 @@ If the truck collects significantly more garbage than expected to the point that
 The machine learning algorithm is rewarded by the amount of garbage collected per time unit, as well as the amount collected per bin.</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">7.10.2023::15:20:35</_modifiedTime>
-			<_lastID type="a">8</_lastID>
-			<weakCGTime type="a">6.16.2023::11:59:56</weakCGTime>
+			<_modifiedTime type="a">7.12.2023::13:3:38</_modifiedTime>
+			<_lastID type="a">13</_lastID>
+			<weakCGTime type="a">7.12.2023::13:3:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
 			</_itsStateChart>
-			<Associations type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</Associations>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
@@ -3280,9 +3403,11 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 				<value>GUID 70eaf7c7-f264-4572-8bfc-e5c461ace416</value>
 				<value>GUID db083e13-d1d0-4373-8a23-47a4b2c2c749</value>
 				<value>GUID 50afc9a7-bad5-4f52-b6f9-d86a080d0641</value>
-				<value>GUID b5882504-105c-41ba-bfd4-cdcb2e18dda6</value>
-				<value>GUID 50b59145-b3e4-4d67-bfca-4191eab2dde2</value>
-				<value>GUID 326feb81-8a9d-49cc-adf4-378b4d6b8412</value>
+				<value>GUID d7b6de54-f421-4068-b7bf-e7ca83f46124</value>
+				<value>GUID e5572a52-94c0-4d53-b140-7259c8fe7eb9</value>
+				<value>GUID 72180df0-5681-4cba-9412-024eed015506</value>
+				<value>GUID e770eaa4-1d52-4401-944b-e0525b8ef6fd</value>
+				<value>GUID 54bef2b7-60b9-460c-9a61-b5158c34b8e7</value>
 			</AggregatesList>
 		</IUseCase>
 		<IDependency type="e">
@@ -3425,13 +3550,13 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 				</INObjectHandle>
 			</_dependent>
 		</IDependency>
-		<ITriggered type="e">
-			<_id type="a">GUID b5882504-105c-41ba-bfd4-cdcb2e18dda6</_id>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID d7b6de54-f421-4068-b7bf-e7ca83f46124</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Create_schedule</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:59:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::11:59:19</_modifiedTime>
-			<_virtual type="a">0</_virtual>
+			<_name type="a">Determine_bins</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::13:2:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:2:26</_modifiedTime>
+			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -3448,14 +3573,16 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 			<_final type="a">0</_final>
 			<_concurrency type="a">Sequential</_concurrency>
 			<_protection type="a">iPublic</_protection>
-		</ITriggered>
-		<ITriggered type="e">
-			<_id type="a">GUID 50b59145-b3e4-4d67-bfca-4191eab2dde2</_id>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID e5572a52-94c0-4d53-b140-7259c8fe7eb9</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Alert_driver</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:59:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::11:59:43</_modifiedTime>
-			<_virtual type="a">0</_virtual>
+			<_name type="a">Plan_route</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::13:2:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:2:32</_modifiedTime>
+			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -3472,14 +3599,16 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 			<_final type="a">0</_final>
 			<_concurrency type="a">Sequential</_concurrency>
 			<_protection type="a">iPublic</_protection>
-		</ITriggered>
-		<ITriggered type="e">
-			<_id type="a">GUID 326feb81-8a9d-49cc-adf4-378b4d6b8412</_id>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 72180df0-5681-4cba-9412-024eed015506</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Update_scheduling_parameters</_name>
-			<_modifiedTimeWeak type="a">6.16.2023::11:59:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">6.16.2023::11:59:56</_modifiedTime>
-			<_virtual type="a">0</_virtual>
+			<_name type="a">Send_route</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::13:2:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:2:40</_modifiedTime>
+			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
 				</IRPYRawContainer>
@@ -3496,7 +3625,55 @@ The machine learning algorithm is rewarded by the amount of garbage collected pe
 			<_final type="a">0</_final>
 			<_concurrency type="a">Sequential</_concurrency>
 			<_protection type="a">iPublic</_protection>
-		</ITriggered>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID e770eaa4-1d52-4401-944b-e0525b8ef6fd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Update_model_parameters</_name>
+			<_modifiedTimeWeak type="a">7.12.2023::13:3:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">7.12.2023::13:3:0</_modifiedTime>
+			<_virtual type="a">1</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
+		<IReception type="e">
+			<_id type="a">GUID 54bef2b7-60b9-460c-9a61-b5158c34b8e7</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\UCs_Implementations.sbsx</_hfilename>
+					<_hsubsystem type="a">UCs_Implementations</_hsubsystem>
+					<_hname type="a">Request_route()</_hname>
+					<_hid type="a">GUID 91f0caaa-5bb9-45d9-b906-2c9afb31c2f4</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
 		<IActor type="e">
 			<_id type="a">GUID 6d4da334-3bbc-4a0b-adf9-0a4a074bb5f5</_id>
 			<_myState type="a">8192</_myState>
